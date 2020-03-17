@@ -1,13 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c4d67f15-7da9-4536-9f3e-2378da04c1ff" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/demo.php" beforeDir="false" afterPath="$PROJECT_DIR$/tests/demo.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Base.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/GLOLive/Base.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Live.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/GLOLive/Live.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/auth/Signature.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/GLOLive/Auth/Signature.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/utils/Request.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/GLOLive/Utils/Request.php" afterDir="false" />
-    </list>
+    <list default="true" id="c4d67f15-7da9-4536-9f3e-2378da04c1ff" name="Default" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -35,13 +29,18 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Live.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Live.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/GLOLive/Live.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="14" selection-start-line="14" selection-end-line="14" />
+            <state relative-caret-position="390">
+              <caret line="32" column="5" lean-forward="true" selection-start-line="32" selection-start-column="5" selection-end-line="32" selection-end-column="5" />
             </state>
           </provider>
+        </entry>
+      </file>
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file leaf-file-name="Request.php" pinned="false" current-in-tab="false">
@@ -97,6 +96,7 @@
         <option value="$PROJECT_DIR$/src/GLOLive/LiveManage.php" />
         <option value="$PROJECT_DIR$/tests/demo.php" />
         <option value="$PROJECT_DIR$/src/GLOLive/Live.php" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
@@ -136,26 +136,6 @@
             <path>
               <item name="live_php_sdk" type="b2602c69:ProjectViewProjectNode" />
               <item name="live_php_sdk" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="GLOLive" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="live_php_sdk" type="b2602c69:ProjectViewProjectNode" />
-              <item name="live_php_sdk" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="GLOLive" type="462c0819:PsiDirectoryNode" />
-              <item name="Auth" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="live_php_sdk" type="b2602c69:ProjectViewProjectNode" />
-              <item name="live_php_sdk" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="GLOLive" type="462c0819:PsiDirectoryNode" />
-              <item name="Utils" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="live_php_sdk" type="b2602c69:ProjectViewProjectNode" />
-              <item name="live_php_sdk" type="462c0819:PsiDirectoryNode" />
               <item name="tests" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -173,6 +153,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/src" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
@@ -202,12 +183,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1584426622340</updated>
-      <workItem from="1584426623707" duration="2134000" />
+      <workItem from="1584426623707" duration="2269000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2134000" />
+    <option name="totallyTimeSpent" value="2269000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
@@ -280,10 +261,13 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/GLOLive/Live.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="14" selection-start-line="14" selection-end-line="14" />
+        <state relative-caret-position="390">
+          <caret line="32" column="5" lean-forward="true" selection-start-line="32" selection-start-column="5" selection-end-line="32" selection-end-column="5" />
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
   </component>
 </project>
