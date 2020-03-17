@@ -7,6 +7,8 @@
  * @copyright   2018 好未来教育科技集团-GLO中台
  */
 
+namespace GLOLive\Auth;
+
 class Signature
 {
     public $appKey;

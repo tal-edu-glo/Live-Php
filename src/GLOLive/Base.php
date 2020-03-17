@@ -7,7 +7,9 @@
  * @copyright   2018 好未来教育科技集团-GLO中台
  */
 
-include_once "./src/auth/Signature.php";
+namespace GLOLive;
+
+use GLOLive\Auth\Signature;
 
 class Base
 {

@@ -8,7 +8,7 @@
  * @license     http://www.kmf.com license
  */
 
-include_once "./src/Live.php";
+require __DIR__ . '/../src/autoload.php';
 
-$liveObj = new Live('d5c984d6d2b19aa7', '5f9709c7a4eea035e9ebb066f62be898');
+$liveObj = new GLOLive\Live('d5c984d6d2b19aa7', '5f9709c7a4eea035e9ebb066f62be898');
 echo $liveObj->replay(1798, 3000056);

@@ -7,8 +7,8 @@
  * @copyright   2018 好未来教育科技集团-考满分事业部
  */
 
-include_once "./src/Base.php";
-include_once "./src/utils/Request.php";
+namespace GLOLive;
+use GLOLive\Utils\Request;
 
 class Live extends Base
 {
