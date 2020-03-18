@@ -7,7 +7,7 @@ use GLOLive\Utils\Request;
 
 class PullAgreement extends Base
 {
-    const STUDENT_TOLE = 0;
+    const STUDENT_ROLE = 0;
     const TEACHER_ROLE = 1;
 
     /**
@@ -57,7 +57,7 @@ class PullAgreement extends Base
      * @return bool|mixed
      */
     public function GetStudentAgreementUrl($classID,$userID,$headImg,$userName,$teacherName){
-        return $this->GetAgreementUrl($classID,$userID,self::STUDENT_TOLE,$headImg,$userName,$teacherName);
+        return $this->GetAgreementUrl($classID,$userID,self::STUDENT_ROLE,$headImg,$userName,$teacherName);
     }
 
 
