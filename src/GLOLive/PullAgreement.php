@@ -20,7 +20,7 @@ class PullAgreement extends Base
      * @return bool|mixed
      */
     public function GetAgreementUrl($classID,$userID,$userRole,$headImg,$userName,$teacherName=''){
-        $url = sprintf("%s/pan/convert/get", $this->url);
+        $url = sprintf("%s/live/pull/agreement", $this->url);
         $query = [
             'class_id' => $classID,
             'user_id'=>$userID,
