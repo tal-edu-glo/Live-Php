@@ -7,17 +7,17 @@
  * @copyright   2018 好未来教育科技集团-GLO中台
  */
 
-namespace GLOLive;
+namespace Glo\Live;
 
-use GLOLive\Auth\Signature;
+use Glo\Live\Auth\Signature;
 
 class Base
 {
-    public $url = 'https://test-api.yeeaoo.com';
+    public $url = 'https://api.yeeaoo.com';
     public $signAuth;
 
-    public function __construct($appKey, $appSecret)
+    public function __construct(Signature $signature)
     {
-        $this->signAuth = new Signature($appKey, $appSecret);
+        $this->signAuth = $signature;
     }
 }

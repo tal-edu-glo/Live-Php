@@ -6,13 +6,12 @@
  *
  * @copyright   2018 好未来教育科技集团-GLO中台
  */
+namespace Glo\Live\Auth;
 
-namespace GLOLive\Auth;
-
-class Signature
+final class Signature
 {
-    public $appKey;
-    public $appSecret;
+    private $appKey;
+    private $appSecret;
     public function __construct($appKey, $appSecret)
     {
         $this->appKey = $appKey;
@@ -38,11 +37,11 @@ class Signature
      * @param $params
      * @return string
      */
-    public function getSign($params)
+    private function getSign($params)
     {
         ksort($params);//将参数按key进行排序
         $str = http_build_query($params);
-        $str = sprintf('%s&tenant_key=%s', $str, $this->appSecret);
+        $str = sprintf('%s&app_secret=%s', $str, $this->appSecret);
         $sign = md5($str);
         return $sign;
     }
