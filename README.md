@@ -43,7 +43,7 @@ $result = $liveObj->create([
    'class_number' => 50
 ]);
 ```
-##测试
+## 测试
 ```shell
 ./vendor/bin/phpunit
 ```
