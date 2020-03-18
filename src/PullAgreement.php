@@ -13,6 +13,9 @@ use Glo\Live\Utils\Request;
 
 class PullAgreement extends Base
 {
+    const STUDENT_ROLE = 0;
+    const TEACHER_ROLE = 1;
+
     /**
      * 老师端唤起
      * @param array $params
@@ -33,7 +36,7 @@ class PullAgreement extends Base
         ){
             return false;
         }
-        $params['user_role'] = 1;
+        $params['user_role'] = self::TEACHER_ROLE;
         return $this->pull($params);
     }
 
@@ -59,7 +62,7 @@ class PullAgreement extends Base
         ){
             return false;
         }
-        $params['user_role'] = 0;
+        $params['user_role'] = self::STUDENT_ROLE;
         return $this->pull($params);
     }
 
