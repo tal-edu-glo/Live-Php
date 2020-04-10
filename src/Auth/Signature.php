@@ -44,7 +44,7 @@ final class Signature
         foreach ($params as $k => $val) {
             $str .= "{$k}={$val}&"; //拼接成 key1=value1&key2=value2&...&keyN=valueN& 的形式
         }
-        $str = sprintf('%s&app_secret=%s', $str, $this->appSecret);
+        $str = sprintf('%sapp_secret=%s', $str, $this->appSecret);
         $sign = md5($str);
         return $sign;
     }

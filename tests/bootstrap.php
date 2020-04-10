@@ -2,6 +2,6 @@
 $loader = require __DIR__.'/../vendor/autoload.php';
 $loader->add('Glo\Live\Test', __DIR__);
 
-$appKey = 'uuuuuuuuuu7777';
-$appSecret = 'ef8d74a80534e63d3ac28e0247cda5b4';
+$appKey = '92cae9410c4f8aeb';
+$appSecret = '92cae9410c4f8aebfd294e29935f697f';
 $testAuth = new Glo\Live\Auth\Signature($appKey, $appSecret);
