@@ -25,6 +25,7 @@ class LiveTest extends TestCase
     public function testCreate()
     {
         $params = [
+            'live_id' => 10000,
             'class_name' => 'paas直播测试001',
             'class_type' => 0,
             'start_time' => '2030-01-01 00:00:00',

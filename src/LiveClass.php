@@ -26,10 +26,8 @@ class LiveClass extends Base
      */
     public function create($params = [])
     {
-        $url = sprintf("%s/class/access/live/create", $this->url);
-        return Request::post($url, $this->signAuth->handel($params), [
-            'K-Version' => 'v2'
-        ]);
+        $url = sprintf("%s/class/pass/live/create", $this->url);
+        return Request::post($url, $this->signAuth->handel($params));
     }
 
     /**
@@ -47,10 +45,8 @@ class LiveClass extends Base
      */
     public function edit($params = [])
     {
-        $url = sprintf("%s/class/access/live/edit", $this->url);
-        return Request::post($url, $this->signAuth->handel($params), [
-            'K-Version' => 'v2'
-        ]);
+        $url = sprintf("%s/class/pass/live/edit", $this->url);
+        return Request::post($url, $this->signAuth->handel($params));
     }
 
     /**
@@ -60,12 +56,10 @@ class LiveClass extends Base
      */
     public function delete($classId = 0)
     {
-        $url = sprintf("%s/class/access/live/delete", $this->url);
+        $url = sprintf("%s/class/pass/live/delete", $this->url);
         return Request::post($url, $this->signAuth->handel([
             'class_id' => $classId
-        ]), [
-            'K-Version' => 'v2'
-        ]);
+        ]));
     }
 
     /**
