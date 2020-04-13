@@ -16,7 +16,7 @@ class LiveTest extends TestCase
 {
     public $liveObj;
 
-    public function setUp()
+    public function setUp(): void
     {
         global $testAuth;
         $this->liveObj = new LiveClass($testAuth);

@@ -16,7 +16,7 @@ class PullAgreementTest extends TestCase
 {
     public $pullAgreementObj;
 
-    public function setUp()
+    public function setUp(): void
     {
         global $testAuth;
         $this->pullAgreementObj = new PullAgreement($testAuth);

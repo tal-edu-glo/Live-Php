@@ -16,7 +16,7 @@ class FileConvertTest extends TestCase
 {
     public $fileConvertObj;
 
-    public function setUp()
+    public function setUp(): void
     {
         global $testAuth;
         $this->fileConvertObj = new FileConvert($testAuth);

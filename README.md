@@ -43,7 +43,13 @@ $result = $liveObj->create([
    'class_number' => 50
 ]);
 ```
-## 测试
-```shell
-./vendor/bin/phpunit
-```
+
+### 运行单元测试
+
+1. 执行`composer install`下载依赖的库
+2. 设置系统环境变量
+
+        export GLO_APP_KEY=xxxxx
+        export GLO_APP_SECRET=xxxxx
+
+3. 执行 `./vendor/bin/phpunit` 
