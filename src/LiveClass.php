@@ -21,6 +21,7 @@ class LiveClass extends Base
      *      'start_time'    string  直播开始时间 1970-01-01 00:00:00
      *      'end_time'      string  直播结束时间 1970-01-01 00:02:00
      *      'class_number'  string  参与直播人数 活动/公开课建议填写 默认大班50
+     *      'live_id'  int  业务传入的直播ID,相同class_type类型下live_id保证其唯一性
      * ]
      * @return bool|mixed
      */

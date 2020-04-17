@@ -36,6 +36,7 @@ $testAuth = new Glo\Live\Auth\Signature($appKey, $appSecret);
 ```shell
 $liveObj = new LiveClass($testAuth);
 $result = $liveObj->create([
+   'live_id' => 1000,
    'class_name' => '测试直播',
    'class_type' => 0,
    'start_time' => '2030-01-01 00:00:00',
